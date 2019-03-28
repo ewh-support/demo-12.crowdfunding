@@ -1417,21 +1417,11 @@ h2, h3, h4, h5, h6 {
 }
 
 .slick-dots li, .slick-dots li button {
-  width: 20px;
-  height: 20px;
+  width: 63px;
+  height: 10px;
   cursor: pointer
 }
 
-.slick-dots li button {
-  font-size: 0;
-  line-height: 0;
-  display: block;
-  padding: 5px;
-  color: transparent;
-  border: 0;
-  outline: 0;
-  background: 0 0
-}
 
 .slick-dots li button:focus, .slick-dots li button:hover {
   outline: 0
@@ -1443,21 +1433,17 @@ h2, h3, h4, h5, h6 {
 
 .slick-dots li button:before {
   font-size: 6px;
-  line-height: 20px;
+  line-height: 10px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 63px;
+  height: 10px;
   content: "\2022";
   text-align: center;
-  opacity: .25;
-  color: #000
-}
-
-.slick-dots li.slick-active button:before {
-  opacity: .75;
-  color: #000
+  opacity: .50;
+  color: transparent;
+  background-color: #ff6612;
 }
 
 .carousel {
@@ -1542,8 +1528,8 @@ h2, h3, h4, h5, h6 {
 
 #Partners .container .carousel .slick-next:before {
   content: "";
-  width: 67px;
-  height: 67px;
+  width: 35px;
+  height: 35px;
   display: block;
   border-radius: 50%;
   background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBzdHJva2U9IiNGRkYiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTEgMTNsNi02LTYtNiIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=) 50% no-repeat;
@@ -1551,12 +1537,12 @@ h2, h3, h4, h5, h6 {
 }
 
 #Partners .container .carousel .slick-dots {
-  bottom: -60px
+  bottom: 0px
 }
 
 #Partners .container .carousel .slick-dots li {
-  width: auto;
-  height: auto
+  width: 63px;
+  height: 10px;
 }
 
 #Partners .container .carousel .slick-dots .dot {
@@ -2442,12 +2428,6 @@ h2, h3, h4, h5, h6 {
   padding: 0
 }
 
-.slick-dots li, .slick-dots li button {
-  width: 20px;
-  height: 20px;
-  cursor: pointer
-}
-
 .slick-dots li button {
   font-size: 0;
   line-height: 0;
@@ -2456,7 +2436,7 @@ h2, h3, h4, h5, h6 {
   color: transparent;
   border: 0;
   outline: 0;
-  background: 0 0
+  background-color: rgba(255, 102, 18, .5);
 }
 
 .slick-dots li button:focus, .slick-dots li button:hover {
@@ -2467,23 +2447,11 @@ h2, h3, h4, h5, h6 {
   opacity: 1
 }
 
-.slick-dots li button:before {
-  font-size: 6px;
-  line-height: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  content: "\2022";
-  text-align: center;
-  opacity: .25;
-  color: #000
-}
-
 .slick-dots li.slick-active button:before {
-  opacity: .75;
-  color: #000
+  opacity: 1;
+  color: transparent;
+  background-color: #ff6612;
+
 }
 
 .carousel {
@@ -2568,21 +2536,12 @@ h2, h3, h4, h5, h6 {
 
 #Partners .container .carousel .slick-next:before {
   content: "";
-  width: 67px;
-  height: 67px;
+  width: 32px;
+  height: 32px;
   display: block;
   border-radius: 50%;
   background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBzdHJva2U9IiNGRkYiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTEgMTNsNi02LTYtNiIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=) 50% no-repeat;
   background-color: #ff6612
-}
-
-#Partners .container .carousel .slick-dots {
-  bottom: -60px
-}
-
-#Partners .container .carousel .slick-dots li {
-  width: auto;
-  height: auto
 }
 
 #Partners .container .carousel .slick-dots .dot {
